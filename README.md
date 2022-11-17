@@ -9,8 +9,7 @@ python signature.py --name Jules-Hc --file C:/test.java
 result
 ----
 
-Inline-style: 
-![alt text](https://github.com/code404nul/signature-auto/test.png "screenshot")
+![alt text](https://github.com/code404nul/signature-auto/blob/main/screen.png "screenshot")
 
 GNU 2
 ----
