@@ -10,7 +10,7 @@ result
 ----
 
 Inline-style: 
-![alt text](https://github.com/code404nul/signature-auto/Capture d’écran 2022-11-17 210242.png "screenshot")
+![alt text](https://github.com/code404nul/signature-auto/test.png "screenshot")
 
 GNU 2
 ----
