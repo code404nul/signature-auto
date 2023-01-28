@@ -4,8 +4,8 @@
 # name : Jules.HC
 # date : 2022-11-17
 # 
-# last modification : 2022-11-17 by Jules.HC
-# 
+# last modification : 2022-01-28 by Jules.HC
+# modified for add better interface
 # ==========================================================
 
 #import module
@@ -33,13 +33,13 @@ def write(ext, chemin, name, usefulness):
     today = date.today()
     f = open(chemin, "a")
     f.write(f"{ext} ==========================================================\n")
-    f.write(f"{ext} \n")
-    f.write(f"{ext} name : {name}\n")
-    f.write(f"{ext} date : {today}\n")
-    f.write(f"{ext} \n")
-    f.write(f"{ext} last modification : {today} by {name}\n")
-    f.write(f"{ext} Usefulness : {usefulness}\n")
-    f.write(f"{ext} \n")
+    f.write(f"{ext} ||\n")
+    f.write(f"{ext} ||-name : {name}\n")
+    f.write(f"{ext} ||-date : {today}\n")
+    f.write(f"{ext} ||-\n")
+    f.write(f"{ext} ||-last modification : {today} by {name}\n")
+    f.write(f"{ext} ||-Usefulness : {usefulness}\n")
+    f.write(f"{ext} ||\n")
     f.write(f"{ext} ==========================================================")
     f.close()
     print("finish...")
